@@ -1,0 +1,99 @@
+/* Terramar Software LLC Landing Page Styles */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', 'SF Pro Display', 'Segoe UI', Arial, sans-serif;
+	/* background: linear-gradient(120deg, #f8f6f2 0%, #eae6df 100%); */
+	background: linear-gradient(120deg, #f8f6f2 0%, #FFFDD0 500%);
+	color: #23272e;
+	min-height: 100vh;
+}
+
+.landing-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 80vh;
+	padding: 2rem 1rem 0 1rem;
+}
+
+.brand {
+	font-size: 2.8rem;
+	font-weight: 700;
+	color: #23272e;
+	letter-spacing: 0.02em;
+	margin-bottom: 0.5rem;
+	text-shadow: 0 2px 16px #bfc3c9;
+}
+
+.tagline {
+	font-size: 1.3rem;
+	color: #5a5e66;
+	font-weight: 400;
+	margin-bottom: 2.5rem;
+	max-width: 32rem;
+	text-align: center;
+}
+
+.ethos {
+	background: rgba(36, 39, 46, 0.04);
+	border-radius: 1.2rem;
+	box-shadow: 0 2px 16px 0 rgba(36, 39, 46, 0.04);
+	padding: 2rem 2.5rem 1.5rem 2.5rem;
+	margin-bottom: 2rem;
+	max-width: 32rem;
+	text-align: left;
+	color: #7a7e87;
+}
+.ethos h2 {
+	color: #23272e;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0.7rem;
+	letter-spacing: 0.01em;
+}
+.ethos ul {
+	list-style: disc inside;
+	color: #44474f;
+	padding-left: 1.2em;
+	margin: 0;
+}
+.ethos li {
+	margin-bottom: 0.5em;
+	font-size: 1.05rem;
+	line-height: 1.6;
+}
+
+.footer {
+	text-align: center;
+	color: #7a7e87;
+	font-size: 0.95rem;
+	padding: 2rem 0 1.2rem 0;
+	letter-spacing: 0.01em;
+	background: none;
+}
+
+a:link {
+  color: #f09d09;
+}
+
+a:hover {
+    color: #3ecdc9;
+}
+
+.copy-icon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.copy-icon svg {
+  vertical-align: middle;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1;
+}
+
